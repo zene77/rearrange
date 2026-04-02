@@ -1,13 +1,14 @@
 # Rearrange
-Este módulo sirve para reorganizar nombres.
-Aquí podríamos añadir más ejemplos en el futuro.
-![IMG20251026093347](https://github.com/user-attachments/assets/0a16bf82-30b2-4fce-936a-92a50d62777e)
 
-This module is used for rearranging names. 
-Turns "LastName,FirstName" into "Firstname LastName"
+Este módulo sirve para reorganizar nombres en formato `"Apellido,Nombre"` y convertirlos en `"Nombre Apellido"`.
 
-# Example
+<img src="https://github.com/user-attachments/assets/0a16bf82-30b2-4fce-936a-92a50d62777e" width="250">
 
-Calling `rearrange_name("Turing, Alan")` will return `"Alan Turing"`
+## Ejemplo
+
+```python
+rearrange_name("Turing, Alan")
+# Resultado: "Alan Turing"
+
 
 
